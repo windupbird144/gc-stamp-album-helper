@@ -104,9 +104,9 @@
     ],
     ["Mystery Island Kiko Stamp", 101, "Kiko, kiko!", "stamp_island_kiko.gif"],
     [
-      "Island Mystic Stamp",
+      "Island Music Stamp",
       70,
-      "The Mystic always has something interesting to say.",
+      "The Island Musician always has something interesting to say.",
       "stamp_mys_mystic.gif"
     ],
     [
@@ -1138,6 +1138,12 @@
       "stamp_meridell_illusen.gif"
     ],
     [
+      "Jeran Stamp",
+      90,
+      "The loyal Jeran, defender of all things true and fair.",
+      "stamp_darigan_jeran.gif"
+    ],
+    [
       "Golden Orb Stamp",
       80,
       "A glistening enchanting gem that holds many mysterious powers.",
@@ -1172,12 +1178,6 @@
       99,
       "The twisted demonic version of Lord Darigan brings tears to most Neopets eyes.",
       "sta_meridell_dariganspect.gif"
-    ],
-    [
-      "Jeran Stamp",
-      90,
-      "The loyal Jeran, defender of all things true and fair.",
-      "stamp_darigan_jeran.gif"
     ]
   ],
   "9": [
@@ -1329,12 +1329,6 @@
   ],
   "10": [
     [
-      "Jewelled Scarab Stamp",
-      88,
-      "A dazzling, sparkly stamp that really makes this weapon look stunning.",
-      "stamp_jeweledscarab.gif"
-    ],
-    [
       "Sword of Skardsen Stamp",
       88,
       "Ok so it can't help you in the Battledome, but it will look pretty snazzy in your stamp collection.",
@@ -1381,6 +1375,12 @@
       84,
       "Ooh this stamp is very shiny! Even the crystal ball has sparkly bits inside it!",
       "sta_crystalapple.gif"
+    ],
+    [
+      "Jewelled Scarab Stamp",
+      88,
+      "A dazzling, sparkly stamp that really makes this weapon look stunning.",
+      "stamp_jeweledscarab.gif"
     ],
     [
       "Sword of the Air Faerie Stamp",
