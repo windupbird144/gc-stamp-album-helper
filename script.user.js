@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Grundo's Café stamp album helper
 // @namespace    github.com/windupbird144
-// @version      0.1
+// @version      0.2
 // @description  Grundo's Café stamp album helper
 // @author       github.com/windupbird144
 // @match        https://www.grundos.cafe/stamps/album/?page_id=*&owner=*
@@ -103,10 +103,12 @@ function removePrefix(url) {
 
         const searchWizard = (query) => openAndFill('/market/wizard', { 'search_method' : 1, query })
         const searchTradingPost = (query) => openAndFill('/island/tradingpost/browse/', { category : 2, query })
+        
         const searchAuctionHouse = () => window.open("/auctions")
         const searchSDB = (query) => window.open(`/safetydeposit/?page=1&${encodeQuery("query", query)}&category=0`)
         const searchJellyneo = (query) => window.open(`https://items.jellyneo.net/search/?${encodeQuery("name", query)}`)
-
+        const searchShop = () => window.open(`/viewshop/?shop_id=58`)
+        
         // Show a rich info box at the bottom
         table.insertAdjacentHTML("beforeend", `<tbody>
     <tr>
@@ -126,6 +128,7 @@ function removePrefix(url) {
              <img data-search="auction-house" src="https://i.ibb.co/vYzmPxV/auction25.gif" />
              <img data-search="sdb" src="https://neopialive.s3.us-west-1.amazonaws.com/misc/sdb.gif" />
              <img data-search="jn" src="https://i.ibb.co/cvGsCw4/fishnegg25.gif" />
+             <img data-search="shop" src="/static/images/misc/shopkeeper/58.gif" />
            </div>
         </div>
         <div class="arrow" data-delta="1">></div>
@@ -242,6 +245,7 @@ function removePrefix(url) {
                 "auction-house": searchAuctionHouse,
                 "sdb": searchSDB,
                 "jn": searchJellyneo,
+                "shop" : searchShop
             }[search]
             if (searchFunction) {
                 return searchFunction(query)
