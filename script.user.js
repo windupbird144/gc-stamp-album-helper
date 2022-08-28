@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Grundo's Café stamp album helper
 // @namespace    github.com/windupbird144
-// @version      0.2
+// @version      0.3
 // @description  Grundo's Café stamp album helper
-// @author       github.com/windupbird144
-// @match        https://www.grundos.cafe/stamps/album/?page_id=*&owner=*
+// @author       supercow64, eleven
+// @match        https://www.grundos.cafe/stamps/album/?page_id=*
 // @icon         https://www.grundos.cafe/static/images/favicon.66a6c5f11278.ico
 // @grant        none
 // @license      MIT

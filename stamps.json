@@ -828,7 +828,7 @@
     ],
     [
       "Golden Mr Irgo Stamp",
-      180,
+      99,
       "This stamp is all shiny and golden!",
       "stamp_mr_irgo.gif"
     ],
@@ -1225,7 +1225,7 @@
     ],
     [
       "Ummagine Stamp",
-      90,
+      180,
       "It's an Ummagine - how nice.",
       "stamp_desert_ummagine.gif"
     ],
@@ -1377,16 +1377,16 @@
       "sta_crystalapple.gif"
     ],
     [
-      "Jewelled Scarab Stamp",
-      88,
-      "A dazzling, sparkly stamp that really makes this weapon look stunning.",
-      "stamp_jeweledscarab.gif"
-    ],
-    [
       "Sword of the Air Faerie Stamp",
       85,
       "An elegant edition to any stamp album!",
       "sta_airsword.gif"
+    ],
+    [
+      "Jewelled Scarab Stamp",
+      88,
+      "A dazzling, sparkly stamp that really makes this weapon look stunning.",
+      "stamp_jeweledscarab.gif"
     ],
     [
       "Rod Of Dark Nova Stamp",
