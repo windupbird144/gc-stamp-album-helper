@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Grundo's Café stamp album helper
 // @namespace    github.com/windupbird144
-// @version      0.3
+// @version      0.4
 // @description  Grundo's Café stamp album helper
 // @author       supercow64, eleven
 // @match        https://www.grundos.cafe/stamps/album/?page_id=*
@@ -101,14 +101,13 @@ function removePrefix(url) {
             return tmp.toString()
         }
 
-        const searchWizard = (query) => openAndFill('/market/wizard', { 'search_method' : 1, query })
+        const searchWizard = (query) => window.open(`/market/wizard?${encodeQuery("query",query)}`)
         const searchTradingPost = (query) => openAndFill('/island/tradingpost/browse/', { category : 2, query })
-        
         const searchAuctionHouse = () => window.open("/auctions")
         const searchSDB = (query) => window.open(`/safetydeposit/?page=1&${encodeQuery("query", query)}&category=0`)
         const searchJellyneo = (query) => window.open(`https://items.jellyneo.net/search/?${encodeQuery("name", query)}`)
         const searchShop = () => window.open(`/viewshop/?shop_id=58`)
-        
+
         // Show a rich info box at the bottom
         table.insertAdjacentHTML("beforeend", `<tbody>
     <tr>
