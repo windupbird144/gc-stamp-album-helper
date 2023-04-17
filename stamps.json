@@ -8,7 +8,7 @@
     ],
     [
       "Mystery Island Aishas Stamp",
-      30,
+      80,
       "Aishas dance on a Mystery Island beach!",
       "stamp_mys_ais.gif"
     ],
@@ -62,7 +62,7 @@
     ],
     [
       "Island Acara Stamp",
-      80,
+      90,
       "I met a hula mistress, somewhere in Waikiki...",
       "stamp_island_acara.gif"
     ],
@@ -662,7 +662,7 @@
     ],
     [
       "Seasonal Stamp",
-      180,
+      101,
       "This special commemorative stamp was only available from the Advent Calendar in year 5.",
       "ad_seasonalstamp.gif"
     ],
@@ -674,7 +674,7 @@
     ],
     [
       "Year 5 Stamp",
-      180,
+      86,
       "This special commemorative stamp was only available from the Advent Calendar in year 4.",
       "ad_year5stamp.gif"
     ],
@@ -828,7 +828,7 @@
     ],
     [
       "Golden Mr Irgo Stamp",
-      99,
+      100,
       "This stamp is all shiny and golden!",
       "stamp_mr_irgo.gif"
     ],
@@ -962,7 +962,7 @@
     ],
     [
       "Candychan Stamp",
-      79,
+      95,
       "Now you can own a Candychan stamp, even if you don't have one as a Petpet.",
       "stamp_snowy_candychan.gif"
     ],
@@ -1225,7 +1225,7 @@
     ],
     [
       "Ummagine Stamp",
-      180,
+      96,
       "It's an Ummagine - how nice.",
       "stamp_desert_ummagine.gif"
     ],
@@ -1444,7 +1444,7 @@
     ],
     [
       "Ring of Sloth Stamp",
-      180,
+      89,
       "A dastardly weapon if ever there was one. This was given out by the advent calendar in year 5.",
       "sta_bd_sloth_ring.gif"
     ],
@@ -1472,6 +1472,158 @@
       99,
       "Don't lick it too hard, your tongue may fall off.",
       "sta_bd_slices.gif"
+    ]
+  ],
+"11": [
+    [
+      "Silver Babaa Coin",
+      95,
+      "Worth at least five bronze Babaas.",
+      "coin_babaa.gif"
+    ],
+    [
+      "Book Coin",
+      96,
+      "Is it a coin? Is it a book? Its a coin!",
+      "coin_book.gif"
+    ],
+    [
+      "Brass Usuki Coin",
+      97,
+      "Uuuuuuusuki! This coin is a must for any Usuki collector.",
+      "coin_usuki.gif"
+    ],
+    [
+      "Money Tree Coin",
+      99,
+      "Visit the money tree often and you may just find one of these!",
+      "coin_tree.gif"
+    ],
+    [
+      "Rainbow Pool Coin",
+      98,
+      "How pretty!",
+      "coin_pool.gif"
+    ],
+    [
+      "Eliv Thade Coin",
+      96,
+      "Each time you look at this coin you will remember one of Elivs horrid conundrums.",
+      "coin_elivthade.gif"
+    ],
+    [
+      "Turtum Coin",
+      97,
+      "Aww how sweet it's a little Turtum.",
+      "coin_turtum.gif"
+    ],
+    [
+      "Silver Buzzer Coin",
+      96,
+      "Aww how cute and shiny!",
+      "coin_buzzer.gif"
+    ],
+    [
+      "Snow PaintBrush Coin",
+      96,
+      "A rather snazzy looking coin that will go amazingly well in your collection.",
+      "coin_snow_petpet_pb.gif"
+    ],
+    [
+      "Frozen Snowflake Coin",
+      88,
+      "Brr, just looking at this coin makes me chilly!",
+      "coi_icy.gif"
+    ],
+    [
+      "Silver Concert Hall Coin",
+      92,
+      "One of Tyrannias most famous landmarks is now available in coin form!",
+      "coi_tyrannian.gif"
+    ],
+    [
+      "Hasee Coin",
+      98,
+      "Aww its a cute little Hasee, how sweet!",
+      "coin_hasee.gif"
+    ],
+    [
+      "Bronze Mystery Island Coin",
+      90,
+      "A jolly momento for anyone who has been to Mystery Island.",
+      "coi_mystery.gif"
+    ],
+    [
+      "Golden Scarab Coin",
+      95,
+      "What an unusual shape, it is pretty though!",
+      "coi_desert.gif"
+    ],
+    [
+      "Giant Ghostkerchief Coin",
+      98,
+      "Just looking at this coin sends shivers down your spine!",
+      "coin_gaintghostkerchief.gif"
+    ],
+    [
+      "Defenders Of Neopia Coin",
+      98,
+      "A special coin dedicated to those brave Defenders Of Neopia.",
+      "coin_defenders.gif"
+    ],
+    [
+      "Goo Blaster Coin",
+      95,
+      "If you love Goo Blasters, you will adore this shiny coin!",
+      "coin_gooblaster.gif"
+    ],
+    [
+      "Larnikin Coin",
+      98,
+      "This coin may be small but it is very rare...",
+      "coin_larnikin.gif"
+    ],
+    [
+      "PaintBrush Coin",
+      99,
+      "A gleaming souvenier of your trip to the Rainbow Pool.",
+      "coin_paintbrush.gif"
+    ],
+    [
+      "Chocolate Factory Coin",
+      95,
+      "Mmm this golden coin is dipped in chocolate!",
+      "coi_chocfactory.gif"
+    ],
+    [
+      "Battledome Coin",
+      93,
+      "This solid silver coin has a Scorchstone engraved in it!",
+      "coi_battledome.gif"
+    ],
+    [
+      "Dr Sloth Coin",
+      98,
+      "A silver coin to commemorate Neopias number one villain.",
+      "coi_sloth.gif"
+    ],
+    [
+      "Crystal Kauvara Coin",
+      98,
+      "Take this to Kauvara, she may trade it for one of her potions... then again she may not.",
+      "coin_kauvara.gif"
+    ],
+    [
+      "Neopian Times Coin",
+      100,
+      "This hard to get hold of coin was minted to commemorate Neopian Times Day.",
+      "coi_quill.gif"
+    ],
+    [
+      "Emerald Eyrie Coin",
+      100,
+      "Quite possibly the rarest coin in all Neopia!",
+      "coin_emerald_eyrie.gif"
     ]
   ],
   "12": [
@@ -1776,6 +1928,310 @@
       99,
       "This mighty beast is the ultimate bad guy and the perfect stamp to complete your collection.",
       "sta_nq2_terask.gif"
+    ]
+ ],
+  "16": [
+    [
+        "Angry Evil Coconut",
+        101,
+        "This hideous totem can only be won from the coconut shy in the Deserted Fairground.",
+        "spo_coconut_1.gif"
+    ],
+    [
+        "Sinister Evil Coconut",
+        101,
+        "This hideous totem can only be won from the coconut shy in the Deserted Fairground.",
+        "spo_coconut_2.gif"
+    ],
+    [
+        "Ugly Evil Coconut",
+        101,
+        "This hideous totem can only be won from the coconut shy in the Deserted Fairground.",
+        "spo_coconut_3.gif"
+    ],
+    [
+        "Screaming Evil Coconut",
+        101,
+        "This hideous totem can only be won from the coconut shy in the Deserted Fairground.",
+        "spo_coconut_4.gif"
+    ],
+    [
+        "Horned Evil Coconut",
+        101,
+        "This hideous totem can only be won from the coconut shy in the Deserted Fairground.",
+        "spo_coconut_5.gif"
+    ],
+    [
+        "Infernal Evil Coconut",
+        101,
+        "This hideous totem can only be won from the coconut shy in the Deserted Fairground.",
+        "spo_coconut_6.gif"
+    ],
+    [
+        "Burning Evil Coconut",
+        101,
+        "This hideous totem can only be won from the coconut shy in the Deserted Fairground.",
+        "spo_coconut_7.gif"
+    ],
+    [
+        "Mini Evil Coconut",
+        101,
+        "This hideous totem can only be won from the coconut shy in the Deserted Fairground.",
+        "spo_coconut_8.gif"
+    ],
+    [
+        "Silent Evil Coconut",
+        101,
+        "This hideous totem can only be won from the coconut shy in the Deserted Fairground.",
+        "spo_coconut_9.gif"
+    ],
+    [
+        "Monstrous Evil Coconut",
+        101,
+        "This hideous totem can only be won from the coconut shy in the Deserted Fairground.",
+        "spo_coconut_10.gif"
+    ],
+    [
+        "Tusked Evil Coconut",
+        101,
+        "This hideous totem can only be won from the coconut shy in the Deserted Fairground.",
+        "spo_coconut_11.gif"
+    ],
+    [
+        "Hairy Evil Coconut",
+        101,
+        "This hideous totem can only be won from the coconut shy in the Deserted Fairground.",
+        "spo_coconut_12.gif"
+    ],
+    [
+        "Painted Evil Coconut",
+        101,
+        "This hideous totem can only be won from the coconut shy in the Deserted Fairground.",
+        "spo_coconut_13.gif"
+    ],
+    [
+        "Stitched Evil Coconut",
+        101,
+        "This hideous totem can only be won from the coconut shy in the Deserted Fairground.",
+        "spo_coconut_14.gif"
+    ],
+    [
+        "Wailing Evil Coconut",
+        101,
+        "This hideous totem can only be won from the coconut shy in the Deserted Fairground.",
+        "spo_coconut_18.gif"
+    ],
+    [
+        "Light Brown Evil Coconut",
+        101,
+        "This hideous totem can only be won from the coconut shy in the Deserted Fairground.",
+        "spo_coconut_17.gif"
+    ],
+    [
+        "Damaged Evil Coconut",
+        101,
+        "This hideous totem can only be won from the coconut shy in the Deserted Fairground.",
+        "spo_coconut_23.gif"
+    ],
+    [
+        "Flaming Evil Coconut",
+        101,
+        "This hideous totem has strange dreams that it was once a rare plushie that smelled of dung.",
+        "spo_coconut_16.gif"
+    ],
+    [
+        "Seasonal Evil Coconut",
+        101,
+        "This hideous totem was a prize given out by the advent calendar in year 6.",
+        "spo_coconut_xmas.gif"
+    ],
+    [
+        "One Eyed Evil Coconut",
+        101,
+        "This hideous totem can only be won from the coconut shy in the Deserted Fairground.",
+        "spo_coconut_19.gif"
+    ],
+    [
+        "Vicious Evil Coconut",
+        101,
+        "This hideous totem can only be won from the coconut shy in the Deserted Fairground.",
+        "spo_coconut_20.gif"
+    ],
+    [
+        "Moaning Evil Coconut",
+        101,
+        "This hideous totem can only be won from the coconut shy in the Deserted Fairground.",
+        "spo_coconut_21.gif"
+    ],
+    [
+        "Sliced Evil Coconut",
+        101,
+        "This hideous totem can only be won from the coconut shy in the Deserted Fairground.",
+        "spo_coconut_24.gif"
+    ],
+    [
+        "Scorched Evil Coconut",
+        101,
+        "This hideous totem can only be won from the coconut shy in the Deserted Fairground.",
+        "spo_coconut_15.gif"
+    ],
+    [
+        "Golden Evil Coconut",
+        101,
+        "This hideous totem can only be won from the coconut shy in the Deserted Fairground.",
+        "spo_coconut_25.gif"
+    ]
+],
+  "43": [
+    [
+      "Young Aisha Stamp",
+      101,
+      "N/A",
+      "stamp_365.gif"
+    ],
+    [
+      "Aerial Castle Stamp",
+      101,
+      "N/A",
+      "stamp_368.gif"
+    ],
+    [
+      "Grumpy Skarl Stamp",
+      101,
+      "N/A",
+      "stamp_369.gif"
+    ],
+    [
+      "Tormund Stamp",
+      101,
+      "N/A",
+      "stamp_370.gif"
+    ],
+    [
+      "Meridell Forest Stamp",
+      101,
+      "N/A",
+      "stamp_371.gif"
+    ],
+    [
+      "Valiant Tormund Stamp",
+      101,
+      "N/A",
+      "stamp_378.gif"
+    ],
+    [
+      "Bound Book Stamp",
+      101,
+      "N/A",
+      "stamp_379.gif"
+    ],
+    [
+      "Skeletal Draik Stamp",
+      101,
+      "N/A",
+      "stamp_380.gif"
+    ],
+    [
+      "Evil Sisters Stamp",
+      101,
+      "N/A",
+      "stamp_381.gif"
+    ],
+    [
+      "Fyora Portrait Stamp",
+      101,
+      "N/A",
+      "stamp_382.gif"
+    ],
+    [
+      "Werelupe King Stamp",
+      101,
+      "N/A",
+      "stamp_383.gif"
+    ],
+    [
+      "Gnarfas Stamp",
+      101,
+      "N/A",
+      "stamp_384.gif"
+    ],
+    [
+      "Darkest Faerie Logo Stamp",
+      101,
+      "N/A",
+      "stamp_386.gif"
+    ],
+    [
+      "Jeran on the Battlefield Stamp",
+      101,
+      "N/A",
+      "stamp_destruct_lupe.gif"
+    ],
+    [
+      "Valiant Jeran Stamp",
+      101,
+      "N/A",
+      "stamp_destruct_lupe2.gif"
+    ],
+    [
+      "Surrounded Jeran Stamp",
+      101,
+      "N/A",
+      "stamp_destruct_lupe3.gif"
+    ],
+     [
+      "Destroyed Castle Stamp",
+      101,
+      "N/A",
+      "stamp_destruct_castle.gif"
+    ],
+    [
+      "Skarl Battle Stamp",
+      101,
+      "N/A",
+      "stamp_destruct_king.gif"
+    ],
+    [
+      "Meridellian Knights Stamp",
+      101,
+      "N/A",
+      "stamp_destruct_knights.gif"
+    ],
+    [
+      "Scowling Darigan Moehog Stamp",
+      101,
+      "N/A",
+      "stamp_destruct_moehog.gif"
+    ],
+    [
+      "Ancient Golden Orb Stamp",
+      101,
+      "N/A",
+      "stamp_destruct_orb.gif"
+    ],
+    [
+      "Angry Castle Defender Stamp",
+      101,
+      "N/A",
+      "stamp_destruct_kougraknight.gif"
+    ],
+    [
+      "Fading Jeran Memory Stamp",
+      101,
+      "N/A",
+      "stamp_destruct_luperun.gif"
+    ],
+    [
+      "Fierce Moehog Stamp",
+      101,
+      "N/A",
+      "stamp_destruct_moehogblock.gif"
+    ],
+    [
+      "Lisha Stamp",
+      101,
+      "N/A",
+      "stamp_destruct_lisha.gif"
     ]
   ]
 }
