@@ -87,7 +87,7 @@ function removePrefix(url) {
             w.addEventListener("DOMContentLoaded", () => {
                 const document = w.document
                 for (let [name, value] of Object.entries(formFields)) {
-                    const formField = document.querySelector(`[name='${name}']`)
+                    const formField = document.querySelector(`#page_content [name='${name}']`)
                     if (formField) {
                         formField.value = value
                     }
