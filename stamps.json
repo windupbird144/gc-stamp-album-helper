@@ -2385,5 +2385,157 @@
       "N/A",
       "stamp_destruct_lisha.gif"
     ]
+  ],
+  "44": [
+    [
+      "Scratched Stamp",
+      101,
+      "Oh no! You scratched the wrong things…",
+      "sta_scratch.gif"
+    ],
+    [
+      "Oops! All Brakuberries Stamp",
+      78,
+      "The latest and greatest in Braku Berry farming, this variety has super-sized berries that are both delicious and fun to throw at your friends!",
+      "stamp_brakuberries.gif"
+    ],
+    [
+      "Poogy Stamp",
+      78,
+      "Not quite a Poogle.",
+      "stamp_poogy.gif"
+    ],
+    [
+      "Special Agent Jones Stamp",
+      101,
+      "Benji, I’m going to let you in on a little secret. Every day, once a day, give yourself a present. Don’t plan it, don’t wait for it, just let it happen.",
+      "sta_agentjones.gif"
+    ],
+    [
+      "Mister Boodles Stamp",
+      101,
+      "Go to NeoSchool or University. Get a Faerie Job, that’s what they said to me. But I could never live the way they want!",
+      "sta_misterboodles.gif"
+    ],
+    [
+      "Samouel Says \"Hi!\" Stamp",
+      101,
+      "Well hi!!! Aren’t you going to say hi back?",
+      "sta_samouel.gif"
+    ],
+    [
+      "Space Wizard Stamp",
+      101,
+      "Some say it was just a balloon, but Space Wizard knows what it was really about.",
+      "sta_spacewizard.gif"
+    ],
+    [
+      "Ghostkerstamp",
+      101,
+      "Once licked by the mighty scary pet, SUNSHINE MONK!",
+      "sta_ghostker.gif"
+    ],
+    [
+      "World Challenges Stamp",
+      101,
+      "No map piece this time, but a stamp is a decent consolation prize!",
+      "sta_worldchallenges.gif"
+    ],
+    [
+      "Lupe Fiasco Stamp",
+      89,
+      "Sir, there is an overload of Lupes! Uh-oh… it’s a PROBLEM!!! HELP, what do we do NOW?",
+      "sta_lupefiasco.gif"
+    ],
+    [
+      "Cogito Ergo Stamp",
+      101,
+      "I think, therefore I sip. Usually coffee.",
+      "sta_cogitoergo.gif"
+    ],
+    [
+      "Toothy Stamp",
+      101,
+      "Oh Toothy, what nice teeth you have!",
+      "sta_toothy.gif"
+    ],
+    [
+      "Draikey Cakey Stampy",
+      94,
+      "Wakey wakey, Draikey cakey!",
+      "sta_draikeycakey.gif"
+    ],
+    [
+      "Mystery Pic Stamp",
+      101,
+      "Is it the tail of a Red Scorchio?",
+      "sta_blurrykrawk.gif"
+    ],
+    [
+      "Lenny Condominium Stamp",
+      101,
+      "Always read the fine print carefully.",
+      "sta_condominium.gif"
+    ],
+    [
+      "Nimmo Finger Stamp",
+      101,
+      "I knew a kid named Finger once…",
+      "sta_nimmofinger.gif"
+    ],
+     [
+      "Faerie Doll Collectors Stamp",
+      101,
+      "Dang, look at the price tag for just ONE of these? Oh well, gotta have them all!",
+      "sta_faeriedolls.gif"
+    ],
+    [
+      "Purple Spotted Shroom Stamp",
+      101,
+      "This stamp was allegedly handmade for Jhudora.",
+      "sta_pss.gif"
+    ],
+    [
+      "Princess Meiwa Stamp",
+      101,
+      "I want to steal her hair buns…",
+      "sta_meiwa.gif"
+    ],
+    [
+      "Maccys Stamp",
+      101,
+      "There are no limits to what you can do when Maccy is your digital companion… A computer that runs, or even flies in space! Beep boop!",
+      "sta_maccy.gif"
+    ],
+    [
+      "Dung Faerie Stamp",
+      101,
+      "The kind and elusive faerie who donates to the Rubbish Dump. Commemorated in a scratch-and-sniff stamp!",
+      "sta_dungfaerie.gif"
+    ],
+    [
+      "Cheaply Printed Wand of the Dark Faerie Stamp",
+      99,
+      "Well, at least it’s rarity 99… Right?",
+      "sta_cheapwodf.gif"
+    ],
+    [
+      "Alien Lupe Stamp",
+      101,
+      "Sorry to jet, but I’m in a hurry!",
+      "sta_alienlupe.gif"
+    ],
+    [
+      "Torn Grey Faerie Stamp",
+      101,
+      "Oooh, so shiny and metallic… But someone ripped it in two :(",
+      "sta_torn.gif"
+    ],
+    [
+      "Holographic MSPP Stamp",
+      101,
+      "One Neopoint?! That’s what I call “malevolent”…",
+      "sta_holo_mspp.gif"
+    ]
   ]
 }
