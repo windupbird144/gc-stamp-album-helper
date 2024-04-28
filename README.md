@@ -8,7 +8,7 @@ Features:
 
 - Fill blank album slots with images of what is missing
 - Show name, rarity and description of missing stamps
-- Links to searches (Wizard, TP, Auction) and Jellyneo
+- Links to searches (Shop Wizard, Trading Post, Auction House) and Jellyneo
 - Compare your album progress with another user
 
 Credits:
@@ -18,10 +18,39 @@ Modelled after the userscript [Stamp album helper](https://www.reddit.com/r/neop
 
 ### Developing the script
 
-#### Adding a new stamp album
+
+This repository includes a Caddyfile for convenience. With caddy installed, `caddy run` can be used to host the userscript and the stamps database on `http://localhost:8080`.
+
+The script can then be installed from `http://localhost:8080/script.user.js`
+
+The local storage variable `stamp_database` can be set to load the script from localhost instead of the default online URL.
+
+~~~~javascript
+localStorage.setItem("stamp_database", "http://localhost:8080/stamps.json")
+~~~~
+
+Don't forget to clear it to use the default online URL again.
+~~~~javascript
+localStorage.removeItem("stamp_database")
+~~~~
+
+
+
+### Adding a new stamp album
 - Add a new entry to `stamps.json`
 - Increment the minor version in `script.user.js`
-- To get the stamp info for an album, you can seek out the information manually on Jellyneo or get some help with the script for the browser console below. 
+
+### Getting the information 
+
+The information can be retrieved from various places
+
+- Jellyneo (if the album is the identical on retail)
+- Stamp albums of users
+- Site searches
+
+Below is a script that can be used in the browser console on Jellyneo to retrieve album information.
+
+
 1. Visit the [Jellyneo Item DB Page](https://items.jellyneo.net/search/?album=15&sort=6) for the album to get info on
 2. Open the first stamp
 3. Open a browser console (Ctrl + Shift + I in Firefox)
@@ -41,10 +70,3 @@ Modelled after the userscript [Stamp album helper](https://www.reddit.com/r/neop
   return [name,rarity,description,img]
 })()
 ```
-
-#### Preview a version of stamps.json
-The script reads the URL for stamps.json from the localStorage key `stamp_database`. So you can upload your copy of stamps.json somewhere and set the localStorage key:
-- `localStorage.setItem('stamp_database', YOUR_URL)`
-
-Don't forget to clear it to use the default production URL again
-- `localStorage.removeItem('stamp_database')`
