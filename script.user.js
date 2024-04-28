@@ -10,7 +10,7 @@
 // @license      MIT
 // ==/UserScript==
 
-const prefix = "https://neopialive.s3.us-west-1.amazonaws.com/items"
+const prefix = "https://grundoscafe.b-cdn.net/items"
 
 function removePrefix(url) {
     return url.replace(prefix, "")
