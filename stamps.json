@@ -2238,151 +2238,151 @@
     [
       "Young Aisha Stamp",
       101,
-      "N/A",
+      "I wonder what her wand does...?",
       "stamp_365.gif"
     ],
     [
       "Aerial Castle Stamp",
       101,
-      "N/A",
+      "It looks like a gloomy day!",
       "stamp_368.gif"
     ],
     [
       "Grumpy Skarl Stamp",
       101,
-      "N/A",
+      "He got a bad haircut.",
       "stamp_369.gif"
     ],
     [
       "Tormund Stamp",
       101,
-      "N/A",
+      "A wise and powerful Lupe!",
       "stamp_370.gif"
     ],
     [
       "Meridell Forest Stamp",
       101,
-      "N/A",
+      "Bask in the warmth of the sunlight and breathe that fresh forest air!",
       "stamp_371.gif"
     ],
     [
       "Valiant Tormund Stamp",
       101,
-      "N/A",
+      "Well-equipped to fight the forces of evil!",
       "stamp_378.gif"
     ],
     [
       "Bound Book Stamp",
       101,
-      "N/A",
+      "This book looks like it possesses a great power...",
       "stamp_379.gif"
     ],
     [
       "Skeletal Draik Stamp",
       101,
-      "N/A",
+      "A fierce wyvern! You don't want to end up on its bad side.",
       "stamp_380.gif"
     ],
     [
       "Evil Sisters Stamp",
       101,
-      "N/A",
+      "Spite, Malice, and Vanity... clearly up to no good.",
       "stamp_381.gif"
     ],
     [
       "Fyora Portrait Stamp",
       101,
-      "N/A",
+      "A beautiful portrait of the Faerie Queen.",
       "stamp_382.gif"
     ],
     [
       "Werelupe King Stamp",
       101,
-      "N/A",
+      "What an intimidating presence...",
       "stamp_383.gif"
     ],
     [
       "Gnarfas Stamp",
       101,
-      "N/A",
+      "Gnarfas is kept locked away, deep underground. Once he goes on a rampage, not even the Werelupe King may stop his wrath.",
       "stamp_384.gif"
     ],
     [
       "Darkest Faerie Logo Stamp",
       101,
-      "N/A",
+      "The Darkest Faerie!",
       "stamp_386.gif"
     ],
     [
       "Jeran on the Battlefield Stamp",
       101,
-      "N/A",
+      "Jeran, surveying destruction.",
       "stamp_destruct_lupe.gif"
     ],
     [
       "Valiant Jeran Stamp",
       101,
-      "N/A",
+      "Jeran, primed for battle!",
       "stamp_destruct_lupe2.gif"
     ],
     [
       "Surrounded Jeran Stamp",
       101,
-      "N/A",
+      "Jeran, in the midst of chaos!",
       "stamp_destruct_lupe3.gif"
     ],
      [
       "Destroyed Castle Stamp",
       101,
-      "N/A",
+      "An eerie scene - a castle in disrepair.",
       "stamp_destruct_castle.gif"
     ],
     [
       "Skarl Battle Stamp",
       101,
-      "N/A",
+      "King to E2!",
       "stamp_destruct_king.gif"
     ],
     [
       "Meridellian Knights Stamp",
       101,
-      "N/A",
+      "With their trusty steeds.",
       "stamp_destruct_knights.gif"
     ],
     [
       "Scowling Darigan Moehog Stamp",
       101,
-      "N/A",
+      "You wouldn't want to cross paths with this Moehog.",
       "stamp_destruct_moehog.gif"
     ],
     [
       "Ancient Golden Orb Stamp",
       101,
-      "N/A",
+      "Wow, this orb looks ancient!",
       "stamp_destruct_orb.gif"
     ],
     [
       "Angry Castle Defender Stamp",
       101,
-      "N/A",
+      "Cover your ears - his bellow can knock you flat!",
       "stamp_destruct_kougraknight.gif"
     ],
     [
       "Fading Jeran Memory Stamp",
       101,
-      "N/A",
+      "Run Jeran, run!",
       "stamp_destruct_luperun.gif"
     ],
     [
       "Fierce Moehog Stamp",
       101,
-      "N/A",
+      "AHHHHH! *chomp*",
       "stamp_destruct_moehogblock.gif"
     ],
     [
       "Lisha Stamp",
       101,
-      "N/A",
+      "A true heroine.",
       "stamp_destruct_lisha.gif"
     ]
   ],
@@ -2536,6 +2536,310 @@
       101,
       "One Neopoint?! That’s what I call “malevolent”…",
       "sta_holo_mspp.gif"
+    ]
+  ],
+  "45": [
+    [
+        "Kougra Iron",
+        101,
+        "Kougra Iron is a very powerful stone. Use it wisely!",
+        "tiger_iron.gif"
+    ],
+    [
+        "Apatite and Calcite Stone",
+        101,
+        "What a mesmerizing swirl of blues and oranges...",
+        "apatite_and_calcite.gif"
+    ],
+    [
+        "Fluorite",
+        101,
+        "Not to be confused with the ingredient for bread.",
+        "flourite.gif"
+    ],
+    [
+        "Flower Jasper",
+        101,
+        "When polished, this aggregate rock looks like it is adorned with posies!",
+        "flower_jasper.gif"
+    ],
+    [
+        "Amberite",
+        101,
+        "A gem that looks just like fossilized tree sap!",
+        "amberite.gif"
+    ],
+    [
+        "Jade",
+        101,
+        "A beautiful sea-foam green gem.",
+        "jade.gif"
+    ],
+    [
+        "Jasper",
+        101,
+        "A wonderfully polished red rock.",
+        "jasper.gif"
+    ],
+    [
+        "Kyanite",
+        101,
+        "Kyanite is anisotropic - that means its hardness varies depending on the direction of applied stress!",
+        "kyanite.gif"
+    ],
+    [
+        "Moonstone",
+        101,
+        "Some say that moonstones were hand delivered to Neopia by the Space Faerie herself!",
+        "moonstone.gif"
+    ],
+    [
+        "Onyx",
+        101,
+        "Black and white bands span this beautiful chalcedony.",
+        "onyx.gif"
+    ],
+    [
+        "Orange Topaz",
+        101,
+        "Although topaz is colorless in its natural state, this specimen's impurities give it an incredible orange hue.",
+        "orange_topaz.gif"
+    ],
+    [
+        "Kougra Eye",
+        101,
+        "This gem's strirations can look like a menacing feline eye!",
+        "tiger_eye.gif"
+    ],
+    [
+        "Aquamarine",
+        103,
+        "A pale blue beryl that invokes memories of the ocean.",
+        "aquamarine.gif"
+    ],
+    [
+        "Amethyst",
+        103,
+        "A pristine quartz crystal with a deep violet hue.",
+        "amethyst.gif"
+    ],
+    [
+        "Emerald",
+        103,
+        "A stunningly green beryl.",
+        "emerald.gif"
+    ],
+    [
+        "Opal",
+        103,
+        "A fusion of pearl and amethyst! Wait... -checks notes- ...that might not be right. But still very pretty.",
+        "opal.gif"
+    ],
+    [
+        "Apple Green Garnet",
+        103,
+        "Don't try to eat it!",
+        "apple_green_garnet.gif"
+    ],
+    [
+        "Rainbow Obsidian",
+        105,
+        "The Fountain Faerie's favorite rock!",
+        "rainbow_obsidian.gif"
+    ],
+    [
+        "Peridot",
+        105,
+        "Also known as chrysolite!",
+        "peridot.gif"
+    ],
+    [
+        "Aurora Obsidian",
+        105,
+        "Trace impurities in this obsidian refract light with cosmological brilliance!",
+        "aurora_obsidian.gif"
+    ],
+    [
+        "Suspicious Gem",
+        108,
+        "Roll for initiative!!!",
+        "d20.gif"
+    ],
+    [
+        "Black Opal",
+        108,
+        "This gorgeous variety of opal has a black tint due to trace amounts of iron oxide.",
+        "black_opal.gif"
+    ],
+    [
+        "Sapphire",
+        112,
+        "The most stunning blue you can find in the world of gems.",
+        "sapphire.gif"
+    ],
+    [
+        "Small Ruby",
+        112,
+        "Ruby-duby!",
+        "rubyrock.gif"
+    ],
+    [
+        "Diamond",
+        115,
+        "The crème de la crème of the gem world. Look at that sparkle!",
+        "diamond.gif"
+    ]
+  ],
+  "46": [
+    [
+        "Limestone",
+        101,
+        "Surprisingly low in vitamin C.",
+        "limestone.gif"
+    ],
+    [
+        "Chunks of Clay",
+        101,
+        "Pliable - endless possibilities of form!",
+        "clay_chunks.gif"
+    ],
+    [
+        "Striped Rock",
+        101,
+        "Stripes!",
+        "striped_rock.gif"
+    ],
+    [
+        "Speckled Rock",
+        101,
+        "Specks!",
+        "speckled_rock.gif"
+    ],
+    [
+        "Red Speckled Rock",
+        101,
+        "Specks - now with more red!",
+        "red_speckled_rock.gif"
+    ],
+    [
+        "Bits of Gravel",
+        101,
+        "It's gravel. Hooray!",
+        "gravel_chunks.gif"
+    ],
+    [
+        "Obsidian",
+        102,
+        "Volcanic glass. Be careful - it can be incredibly sharp!",
+        "obsidian.gif"
+    ],
+    [
+        "Amber",
+        102,
+        "Fossilized tree sap! Be VERY careful of Moquots carrying prehistoric dinosaur DNA.",
+        "amber.gif"
+    ],
+    [
+        "Blue Agate",
+        102,
+        "Vibrant blue chalcedony.",
+        "blue_agate.gif"
+    ],
+    [
+        "Citrine",
+        102,
+        "Surprisingly low in vitamin C.",
+        "citrine.gif"
+    ],
+    [
+        "Lemon Quartz",
+        102,
+        "Surprisingly low in vitamin C.",
+        "lemon_quartz.gif"
+    ],
+    [
+        "Ulexite",
+        103,
+        "A milky white crystal.",
+        "ulexite.gif"
+    ],
+    [
+        "Grundenite",
+        103,
+        "Named for the professor who discovered it - Dr. Grundy Grundo Grundensen!",
+        "grundenite.gif"
+    ],
+    [
+        "Chunks of Redstone",
+        103,
+        "Maybe useful for circuitry?",
+        "redrock_chunks.gif"
+    ],
+    [
+        "Rose Quartz",
+        103,
+        "A bubblegum pink shade of quartz.",
+        "rose_quartz.gif"
+    ],
+    [
+        "Turquoise",
+        103,
+        "Its intense blues are owed to its copper content!",
+        "turquoise.gif"
+    ],
+    [
+        "Morganite",
+        103,
+        "A beautiful pink beryl!",
+        "morganite.gif"
+    ],
+    [
+        "Quartz",
+        105,
+        "Piezoelectric? Pizza electric",
+        "quartz.gif"
+    ],
+    [
+        "Purple Agate",
+        105,
+        "A geode with a deeply comforting purple hue.",
+        "purple_agate.gif"
+    ],
+    [
+        "Gold Ore Rock",
+        106,
+        "Wow, lucky find! This might need some refining.",
+        "gold_ore_rock.gif"
+    ],
+    [
+        "Coprolite",
+        108,
+        "Thankfully not too smelly.",
+        "coprolite.gif"
+    ],
+    [
+        "Plant Fossil",
+        109,
+        "Wow, this must have been some kind of fern!",
+        "plant_fossil.gif"
+    ],
+    [
+        "Shell Fossil",
+        109,
+        "Often sold by the sea shore.",
+        "shell_fossil.gif"
+    ],
+    [
+        "Tooth Fossil",
+        112,
+        "Someone call the Tooth Faerie...",
+        "tooth_fossil.gif"
+    ],
+    [
+        "Footprint Fossil",
+        115,
+        "Wow, that is a big foot!",
+        "footprint_fossil.gif"
     ]
   ]
 }
