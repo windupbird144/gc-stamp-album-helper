@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Grundo's Café stamp album helper
 // @namespace    github.com/windupbird144
-// @version      0.7
+// @version      0.8
 // @description  Extend features of the stamp album on Grundo's Café
 // @author       supercow64, eleven, rowanberryyyy, kateslines
 // @match        https://www.grundos.cafe/stamps/album/?page_id=*
@@ -116,7 +116,7 @@ function removePrefix(url) {
         <div class="name">name</div>
         <div class="rarity"></div>
         <div class="cols">
-        <div class="arrow" data-delta="-1"><</div>
+        <div class="stamp_arrow" data-delta="-1"><</div>
         <div class="image"><img src=""/></div>
         <div class="labels">
            <div><label>Position: </label><span class="position"></span></div>
@@ -127,10 +127,10 @@ function removePrefix(url) {
              <img data-search="auction-house" src="https://i.ibb.co/vYzmPxV/auction25.gif" />
              <img data-search="sdb" src="https://neopialive.s3.us-west-1.amazonaws.com/misc/sdb.gif" />
              <img data-search="jn" src="https://i.ibb.co/cvGsCw4/fishnegg25.gif" />
-             <img data-search="shop" src="/static/images/misc/shopkeeper/58.gif" />
+             <img data-search="shop" src="https://grundoscafe.b-cdn.net/misc/shopkeeper/58.gif" />
            </div>
         </div>
-        <div class="arrow" data-delta="1">></div>
+        <div class="stamp_arrow" data-delta="1">></div>
         </div>
       </div>
     </td>
@@ -141,7 +141,7 @@ function removePrefix(url) {
       padding: 1em;
       border: 1px solid #aaa;
     }
-    #stampinfo .arrow {
+    #stampinfo .stamp_arrow {
        font-size: 2em;
        display: flex;
        align-items: center;
@@ -273,7 +273,7 @@ function removePrefix(url) {
 
         // Show diff form
         const compareUser = localStorage.getItem("compare-user") ?? ""
-        
+
         table.nextElementSibling.insertAdjacentHTML("beforeend", `<form action="#" id="compare-user">
            <label for="compare-user">Compare against another user</label><br>
            <input type="text" name="compare-user" value="${compareUser}" />
