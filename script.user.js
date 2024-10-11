@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Grundo's Café stamp album helper
 // @namespace    github.com/windupbird144
-// @version      0.8
+// @version      0.9
 // @description  Extend features of the stamp album on Grundo's Café
 // @author       supercow64, eleven, rowanberryyyy, kateslines
 // @match        https://www.grundos.cafe/stamps/album/?page_id=*
@@ -106,6 +106,7 @@ function removePrefix(url) {
         const searchAuctionHouse = () => window.open("/auctions")
         const searchSDB = (query) => window.open(`/safetydeposit/?page=1&${encodeQuery("query", query)}&category=0`)
         const searchJellyneo = (query) => window.open(`https://items.jellyneo.net/search/?${encodeQuery("name", query)}`)
+        const searchVirtupets = (query) => window.open(`https://virtupets.net/search?${encodeQuery("q", query)}`)
         const searchShop = () => window.open(`/viewshop/?shop_id=58`)
 
         // Show a rich info box at the bottom
@@ -127,6 +128,7 @@ function removePrefix(url) {
              <img data-search="auction-house" src="https://i.ibb.co/vYzmPxV/auction25.gif" />
              <img data-search="sdb" src="https://neopialive.s3.us-west-1.amazonaws.com/misc/sdb.gif" />
              <img data-search="jn" src="https://i.ibb.co/cvGsCw4/fishnegg25.gif" />
+             <img data-search="virtupets" src="https://virtupets.net/assets/images/vp.png" />
              <img data-search="shop" src="https://grundoscafe.b-cdn.net/misc/shopkeeper/58.gif" />
            </div>
         </div>
@@ -243,6 +245,7 @@ function removePrefix(url) {
                 "trading": searchTradingPost,
                 "auction-house": searchAuctionHouse,
                 "sdb": searchSDB,
+                "virtupets" : searchVirtupets,
                 "jn": searchJellyneo,
                 "shop" : searchShop
             }[search]
