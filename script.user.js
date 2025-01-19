@@ -133,14 +133,14 @@ function removePrefix(url) {
            <div><label>Position: </label><span class="position"></span></div>
            <div><label>Status: </label><span class="status"></span></div>
            <div class="links">
-             <img data-search="wizard" src="https://neopialive.s3.us-west-1.amazonaws.com/misc/wiz.png" />
-             <img data-search="trading" src="https://neopialive.s3.us-west-1.amazonaws.com/misc/tp.png" />
-             <img data-search="auction-house" src="https://i.ibb.co/vYzmPxV/auction25.gif" />
-             <img data-search="sdb" src="https://neopialive.s3.us-west-1.amazonaws.com/misc/sdb.gif" />
-             <img data-search="jn" src="https://i.ibb.co/cvGsCw4/fishnegg25.gif" />
-             <img data-search="virtupets" src="https://virtupets.net/assets/images/vp.png" />
-             <img data-search="shop" src="https://grundoscafe.b-cdn.net/misc/shopkeeper/58.gif" />
-             <img data-search="wishlist" alt="Add to wishlist"  src="https://grundoscafe.b-cdn.net/searchicons/wish_add_green.png" width="25" />
+             <img width="24" data-search="wizard" src="https://neopialive.s3.us-west-1.amazonaws.com/misc/wiz.png" />
+             <img width="24" data-search="trading" src="https://neopialive.s3.us-west-1.amazonaws.com/misc/tp.png" />
+             <img width="24" data-search="auction-house" src="https://i.ibb.co/vYzmPxV/auction25.gif" />
+             <img width="24" data-search="sdb" src="https://neopialive.s3.us-west-1.amazonaws.com/misc/sdb.gif" />
+             <img width="24" data-search="jn" src="https://i.ibb.co/cvGsCw4/fishnegg25.gif" />
+             <img width="24" data-search="virtupets" src="https://virtupets.net/assets/images/vp.png" />
+             <img width="24" data-search="shop" src="https://grundoscafe.b-cdn.net/misc/shopkeeper/58.gif" />
+             <img width="24" data-search="wishlist" alt="Add to wishlist"  src="https://grundoscafe.b-cdn.net/searchicons/wish_add_green.png" />
            </div>
         </div>
         <div class="stamp_arrow" data-delta="1">></div>
@@ -181,7 +181,6 @@ function removePrefix(url) {
        display: grid;
        grid-template-columns: min-content auto 1fr min-content;
     }
-    img[data-search] { height: 25px; }
     #compare-user {
         margin-top: 1em;
     }
