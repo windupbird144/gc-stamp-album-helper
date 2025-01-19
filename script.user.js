@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Grundo's Café stamp album helper
 // @namespace    github.com/windupbird144
-// @version      0.9
+// @version      0.10
 // @description  Extend features of the stamp album on Grundo's Café
 // @author       supercow64, eleven, rowanberryyyy, kateslines
 // @match        https://www.grundos.cafe/stamps/album/?page_id=*
