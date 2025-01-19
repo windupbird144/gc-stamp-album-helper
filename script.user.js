@@ -82,7 +82,7 @@ function removePrefix(url) {
 
 
         // Open the url in a new tab and fill the form fields
-        function openAndFill(url, formFields) {
+        function openAndFill(url, formFields, customCallbacks) {
             const w = window.open(url)
             w.addEventListener("DOMContentLoaded", () => {
                 const document = w.document
@@ -90,6 +90,11 @@ function removePrefix(url) {
                     const formField = document.querySelector(`#page_content [name='${name}']`)
                     if (formField) {
                         formField.value = value
+                    }
+                }
+                if (customCallbacks) {
+                    for (let callback of customCallbacks) {
+                        callback(document)
                     }
                 }
             })
@@ -107,6 +112,11 @@ function removePrefix(url) {
         const searchSDB = (query) => window.open(`/safetydeposit/?page=1&${encodeQuery("query", query)}&category=0`)
         const searchJellyneo = (query) => window.open(`https://items.jellyneo.net/search/?${encodeQuery("name", query)}`)
         const searchVirtupets = (query) => window.open(`https://virtupets.net/search?${encodeQuery("q", query)}`)
+        const addToWishlist = (query) => openAndFill(
+            '/wishlist/edit/',
+            { item: query },
+            [ document => document.querySelector("main details").open = true ]
+        )
         const searchShop = () => window.open(`/viewshop/?shop_id=58`)
 
         // Show a rich info box at the bottom
@@ -130,6 +140,7 @@ function removePrefix(url) {
              <img data-search="jn" src="https://i.ibb.co/cvGsCw4/fishnegg25.gif" />
              <img data-search="virtupets" src="https://virtupets.net/assets/images/vp.png" />
              <img data-search="shop" src="https://grundoscafe.b-cdn.net/misc/shopkeeper/58.gif" />
+             <img data-search="wishlist" alt="Add to wishlist"  src="https://grundoscafe.b-cdn.net/searchicons/wish_add_green.png" width="25" />
            </div>
         </div>
         <div class="stamp_arrow" data-delta="1">></div>
@@ -247,7 +258,8 @@ function removePrefix(url) {
                 "sdb": searchSDB,
                 "virtupets" : searchVirtupets,
                 "jn": searchJellyneo,
-                "shop" : searchShop
+                "shop" : searchShop,
+                "wishlist" : addToWishlist
             }[search]
             if (searchFunction) {
                 return searchFunction(query)
