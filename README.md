@@ -16,7 +16,7 @@ Credits:
 Modelled after the userscript [Stamp album helper](https://www.reddit.com/r/neopets/comments/ldrb2d/userscript_stamp_album_helper_i_made_this_tool/) by [u/Eat_Wooloo_As_Mutton](https://www.reddit.com/user/Eat_Wooloo_As_Mutton/) which was made for retail neo.
 
 
-### Developing the script
+## Developing the script
 
 
 This repository includes a Caddyfile for convenience. With caddy installed, `caddy run` can be used to host the userscript and the stamps database on `http://localhost:8080`.
@@ -36,11 +36,11 @@ localStorage.removeItem("stamp_database")
 
 
 
-### Adding a new stamp album
+## Adding a new stamp album
 - Add a new entry to `stamps.json`
 - Increment the minor version in `script.user.js`
 
-### Getting the information 
+### Getting the information from Jellyneo
 
 The information can be retrieved from various places
 
@@ -70,3 +70,30 @@ Below is a script that can be used in the browser console on Jellyneo to retriev
   return [name,rarity,description,img]
 })()
 ```
+
+### Getting the information from Grundo's Café
+
+Open a stamp album on the page you wish to scrape. Run the following
+script in the browser console. A JSON string is printed, which you can
+merge into the stamps.json file of this project.
+
+```javascript
+(function() {
+    const pageId = new URLSearchParams(window.location.search).get('page_id')
+    const cells = document.querySelectorAll("#stamp_tbl > tbody:first-of-type > tr > td")
+    const stamps = Array.from(cells).map((cell) => {
+        const img = cell.querySelector('img')
+        const imgUrl = new URL(img.src).pathname.replace('/items/', '')
+        const name = img.alt
+        return [name, -1, '???', imgUrl]
+    })
+    const stampsObject = {
+        [pageId] : stamps
+    }
+    return JSON.stringify(stampsObject, null, 2)
+})()
+```
+
+Only the name and image are available. To find out the rarity and
+description of the item, look up the item name in the item search
+of Grundo's café.
