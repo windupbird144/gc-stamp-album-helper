@@ -63,7 +63,10 @@ function removePrefix(url) {
             // This identifies if we have a stamp, wheteher it is collected and a database entry
             const cell = cells[slot]
             const collected = cell.title
-            const databaseEntry = database[page] ? database[page][slot] : undefined
+            let databaseEntry = database[page] ? database[page][slot] : undefined
+            if (!databaseEntry[0]) {
+                databaseEntry = undefined
+            }
             // Update the dataset for the shop wizard functionality
             if (databaseEntry) {
                 cell.dataset.position = slot
@@ -352,6 +355,7 @@ function removePrefix(url) {
             // regex to get all stamp images on this html page
             // match(/src="\/images.+?"/g).map(e => e.match(/\/images.+\.\w+/)[0])
             for (let cell of cells) {
+                if (!cell.dataset.name) continue
                 cell.parentElement.dataset.diff = ""
                 const have = cell.dataset.collected === "true"
                 const otherHas = html.includes(removePrefix(cell.src))
