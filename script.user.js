@@ -63,10 +63,7 @@ function removePrefix(url) {
             // This identifies if we have a stamp, wheteher it is collected and a database entry
             const cell = cells[slot]
             const collected = cell.title
-            let databaseEntry = database[page] ? database[page][slot] : undefined
-            if (!databaseEntry[0]) {
-                databaseEntry = undefined
-            }
+            const databaseEntry = database[page]?.[slot]?.[0] ? database[page][slot] : undefined
             // Update the dataset for the shop wizard functionality
             if (databaseEntry) {
                 cell.dataset.position = slot
