@@ -2841,5 +2841,157 @@
         "Wow, that is a big foot!",
         "footprint_fossil.gif"
     ]
+  ],
+  "47": [
+    [
+      "Empty Husk",
+      101,
+      "Just an empty husk.",
+      "cicadahusk_stamp.gif"
+    ],
+    [
+      "Neohome Fly",
+      101,
+      "Ever wonder what was in Fantastic Fly Pie?",
+      "housefly_stamp.gif"
+    ],
+    [
+      "Lacewing",
+      101,
+      "Look at its beautiful delicate wings.",
+      "lacewing_stamp.gif"
+    ],
+    [
+      "Common Desert Collectable Scarab",
+      85,
+      "This fancy scarab has an ornamental design.",
+      "coi_desertscarab_slim.gif"
+    ],
+    [
+      "Noisy Sheeshoo Bug",
+      101,
+      "Some love the noise they make! No idea why though.",
+      "cicada_stamp.gif"
+    ],
+    [
+      "Taffi Moth",
+      101,
+      "Probably don't eat it.",
+      "roseymaplemoth_stamp.gif"
+    ],
+    [
+      "Basic Fringed Collectable Scarab",
+      89,
+      "This scarab is covered in a fancy fringe!",
+      "coi_scarab_4.gif"
+    ],
+    [
+      "Sapphire Flutterfly",
+      -1,
+      "",
+      "bluemorph_stamp.gif"
+    ],
+    [
+      "Simple Red Collectable Scarab",
+      101,
+      "With wings that glisten like... a sapphire!",
+      "coi_red_scarabs.gif"
+    ],
+    [
+      "Elegant Moth",
+      101,
+      "Look at this lovely lady.",
+      "whitemoth_stamp.gif"
+    ],
+    [
+      "",
+      -1,
+      "",
+      ""
+    ],
+    [
+      "",
+      -1,
+      "",
+      ""
+    ],
+    [
+      "",
+      -1,
+      "",
+      ""
+    ],
+    [
+      "Uncommon Blue Collectable Scarab",
+      95,
+      "You won't see this scarab often so make sure you get it when you see it!",
+      "coi_scarab_3.gif"
+    ],
+    [
+      "Spotted Longhorn Beetle",
+      101,
+      "Are they antennas or horns?",
+      "longhorn_stamp.gif"
+    ],
+    [
+      "",
+      -1,
+      "",
+      ""
+    ],
+    [
+      "Greater Green Collectable Scarab",
+      93,
+      "This beautiful green scarab has a fascinating pattern on its back that is quite hypnotising.",
+      "coi_desertscarab_green.gif"
+    ],
+    [
+      "",
+      -1,
+      "",
+      ""
+    ],
+    [
+      "Kreludor Moth",
+      101,
+      "Some say their bushy antennae are for receiving signals from Dr. Sloth.",
+      "lunamoth_stamp.gif"
+    ],
+    [
+      "Stick Bug",
+      101,
+      "Are we sure this is actually a bug and not a stick?",
+      "stickbug_stamp.gif"
+    ],
+    [
+      "Spotted Red Collectable Scarab",
+      96,
+      "The spots on this Scarabs back scare away its enemies!",
+      "coi_dotted_scarabs.gif"
+    ],
+    [
+      "",
+      -1,
+      "",
+      ""
+    ],
+    [
+      "Trilo Bite Beetle",
+      101,
+      "This beetle is almost as old as Tyrannia!",
+      "platerodrilus_stamp.gif"
+    ],
+    [
+      "Magmara Moth",
+      101,
+      "This is a giant! Among bugs, at least.",
+      "atlasmoth_stamp.gif"
+    ],
+    [
+      "",
+      -1,
+      "",
+      ""
+    ]
   ]
 }
