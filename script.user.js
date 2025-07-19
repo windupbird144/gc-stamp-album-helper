@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Grundo's Café stamp album helper
 // @namespace    github.com/windupbird144
-// @version      0.11
+// @version      0.12
 // @description  Extend features of the stamp album on Grundo's Café
 // @author       supercow64, eleven, rowanberryyyy, kateslines
 // @match        https://www.grundos.cafe/stamps/album/?page_id=*
@@ -53,6 +53,14 @@ function removePrefix(url) {
                 updateInfo(+slot)
             }
         })
+        table.addEventListener('keypress', e => {
+            if (e.key == 'Enter') {
+                const slot = e?.target?.firstElementChild?.dataset?.position
+                if (typeof slot === "string") {
+                    updateInfo(+slot)
+                }
+            }
+        })
 
 
         // The url stores a query parameter page_id=? which indicates the current album
@@ -71,6 +79,7 @@ function removePrefix(url) {
                 cell.dataset.rarity = databaseEntry[1]
                 cell.dataset.description = databaseEntry[2]
                 cell.dataset.collected = !!collected
+                cell.parentElement.setAttribute('tabindex', '0')
             }
             // Uncollected stamp fill the slot with database info
             if (databaseEntry && !collected) {
@@ -127,23 +136,23 @@ function removePrefix(url) {
         <div class="name">name</div>
         <div class="rarity"></div>
         <div class="cols">
-        <div class="stamp_arrow" data-delta="-1"><</div>
+        <div class="stamp_arrow" data-delta="-1" tabindex="0"><</div>
         <div class="image"><img src=""/></div>
         <div class="labels">
            <div><label>Position: </label><span class="position"></span></div>
            <div><label>Status: </label><span class="status"></span></div>
            <div class="links">
-             <img width="24" data-search="wizard" src="https://neopialive.s3.us-west-1.amazonaws.com/misc/wiz.png" />
-             <img width="24" data-search="trading" src="https://neopialive.s3.us-west-1.amazonaws.com/misc/tp.png" />
-             <img width="24" data-search="auction-house" src="https://i.ibb.co/vYzmPxV/auction25.gif" />
-             <img width="24" data-search="sdb" src="https://neopialive.s3.us-west-1.amazonaws.com/misc/sdb.gif" />
-             <img width="24" data-search="jn" src="https://i.ibb.co/cvGsCw4/fishnegg25.gif" />
-             <img width="24" data-search="virtupets" src="https://virtupets.net/assets/images/vp.png" />
-             <img width="24" data-search="shop" src="https://grundoscafe.b-cdn.net/misc/shopkeeper/58.gif" />
-             <img width="24" data-search="wishlist" alt="Add to wishlist"  src="https://grundoscafe.b-cdn.net/searchicons/wish_add_green.png" />
+             <img width="24" data-search="wizard" src="https://neopialive.s3.us-west-1.amazonaws.com/misc/wiz.png" tabindex="0"/>
+             <img width="24" data-search="trading" src="https://neopialive.s3.us-west-1.amazonaws.com/misc/tp.png" tabindex="0"/>
+             <img width="24" data-search="auction-house" src="https://i.ibb.co/vYzmPxV/auction25.gif" tabindex="0"/>
+             <img width="24" data-search="sdb" src="https://neopialive.s3.us-west-1.amazonaws.com/misc/sdb.gif" tabindex="0"/>
+             <img width="24" data-search="jn" src="https://i.ibb.co/cvGsCw4/fishnegg25.gif" tabindex="0"/>
+             <img width="24" data-search="virtupets" src="https://virtupets.net/assets/images/vp.png" tabindex="0"/>
+             <img width="24" data-search="shop" src="https://grundoscafe.b-cdn.net/misc/shopkeeper/58.gif" tabindex="0"/>
+             <img width="24" data-search="wishlist" alt="Add to wishlist"  src="https://grundoscafe.b-cdn.net/searchicons/wish_add_green.png" tabindex="0"/>
            </div>
         </div>
-        <div class="stamp_arrow" data-delta="1">></div>
+        <div class="stamp_arrow" data-delta="1" tabindex="0">></div>
         </div>
       </div>
     </td>
@@ -177,6 +186,9 @@ function removePrefix(url) {
     #stampinfo .name {
        font-weight: bold;
     }
+    #stampinfo .links {
+       cursor: pointer;
+    }
     .cols {
        display: grid;
        grid-template-columns: min-content auto 1fr min-content;
@@ -188,6 +200,7 @@ function removePrefix(url) {
     [data-collected="false"] { color: darkred }
     #stamp_tbl td {
         position: relative;
+        outline-offset: -2px;
     }
     [data-diff]:after {
         position: absolute;
@@ -233,10 +246,15 @@ function removePrefix(url) {
             currentPos = pos
             return true
         }
-
-        stampinfo.addEventListener("click", (e) => {
-            // Move left or right to the next stamp, skipping over empty slots
-            let delta = parseInt(e?.target?.dataset?.delta, 10)
+        
+        stampinfo.addEventListener("click", advanceStampInfo)
+        stampinfo.addEventListener('keypress', (event) => {
+            if (event.key === 'Enter') {
+                advanceStampInfo(event)
+            }
+        })
+        function advanceStampInfo(event) {
+            let delta = parseInt(event?.target?.dataset?.delta, 10)
             if (Math.abs(delta) !== 1) return;
             let target = currentPos + delta
             while (true) {
@@ -245,9 +263,15 @@ function removePrefix(url) {
                 if (target > 25) break;
                 target = target + delta
             }
-        })
+        }
 
-        stampinfo.addEventListener("click", (e) => {
+        stampinfo.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                openSearchInNewTab(e)
+            }
+        })
+        stampinfo.addEventListener("click", openSearchInNewTab)
+        function openSearchInNewTab(e) {
             const search = e.target.dataset.search
             const query = cells[currentPos].dataset.name
             const searchFunction = {
@@ -263,7 +287,7 @@ function removePrefix(url) {
             if (searchFunction) {
                 return searchFunction(query)
             }
-        })
+        }
 
         const jellyneoLinks = {
             [1]: "/mystery-island-album-avatar-list/",
