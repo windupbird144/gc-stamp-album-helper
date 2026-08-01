@@ -1524,7 +1524,7 @@
       "coin_buzzer.gif"
     ],
     [
-      "Snow PaintBrush Coin",
+      "Snow Paintbrush Coin",
       96,
       "A rather snazzy looking coin that will go amazingly well in your collection.",
       "coin_snow_petpet_pb.gif"
@@ -1584,7 +1584,7 @@
       "coin_larnikin.gif"
     ],
     [
-      "PaintBrush Coin",
+      "Paint Brush Coin",
       99,
       "A gleaming souvenier of your trip to the Rainbow Pool.",
       "coin_paintbrush.gif"
@@ -1614,9 +1614,9 @@
       "coin_kauvara.gif"
     ],
     [
-      "Neopian Times Coin",
+      "Grundo Gazette Coin",
       100,
-      "This hard to get hold of coin was minted to commemorate Neopian Times Day.",
+      "This hard to get hold of coin was minted to commemorate the esteemed Grundo Gazette!",
       "coi_quill.gif"
     ],
     [
@@ -2844,154 +2844,154 @@
   ],
   "47": [
     [
-      "Empty Husk",
-      101,
-      "Just an empty husk.",
-      "cicadahusk_stamp.gif"
+        "Empty Husk",
+        101,
+        "Just an empty husk.",
+        "cicadahusk_stamp.gif"
     ],
     [
-      "Neohome Fly",
-      101,
-      "Ever wonder what was in Fantastic Fly Pie?",
-      "housefly_stamp.gif"
+        "Neohome Fly",
+        101,
+        "Ever wonder what was in Fantastic Fly Pie?",
+        "housefly_stamp.gif"
     ],
     [
-      "Lacewing",
-      101,
-      "Look at its beautiful delicate wings.",
-      "lacewing_stamp.gif"
+        "Lacewing",
+        101,
+        "Look at it's beautiful delicate wings.",
+        "lacewing_stamp.gif"
     ],
     [
-      "Common Desert Collectable Scarab",
-      85,
-      "This fancy scarab has an ornamental design.",
-      "coi_desertscarab_slim.gif"
+        "Common Desert Collectable Scarab",
+        85,
+        "This fancy scarab has an ornamental design.",
+        "coi_desertscarab_slim.gif"
     ],
     [
-      "Noisy Sheeshoo Bug",
-      101,
-      "Some love the noise they make! No idea why though.",
-      "cicada_stamp.gif"
+        "Noisy Sheeshoo Bug",
+        101,
+        "Some love the noise they make! No idea why though.",
+        "cicada_stamp.gif"
     ],
     [
-      "Taffi Moth",
-      101,
-      "Probably don't eat it.",
-      "roseymaplemoth_stamp.gif"
+        "Taffi Moth",
+        101,
+        "Probably don't eat it.",
+        "roseymaplemoth_stamp.gif"
     ],
     [
-      "Basic Fringed Collectable Scarab",
-      89,
-      "This scarab is covered in a fancy fringe!",
-      "coi_scarab_4.gif"
+        "Basic Fringed Collectable Scarab",
+        89,
+        "This scarab is covered in a fancy fringe!",
+        "coi_scarab_4.gif"
     ],
     [
-      "Sapphire Flutterfly",
-      -1,
-      "",
-      "bluemorph_stamp.gif"
+        "Sapphire Flutterfly",
+        101,
+        "With wings that glisten like... a sapphire!",
+        "bluemorph_stamp.gif"
     ],
     [
-      "Simple Red Collectable Scarab",
-      101,
-      "With wings that glisten like... a sapphire!",
-      "coi_red_scarabs.gif"
+        "Simple Red Collectable Scarab",
+        91,
+        "This scarab is mostly found during the twilight hours.",
+        "coi_red_scarabs.gif"
     ],
     [
-      "Elegant Moth",
-      101,
-      "Look at this lovely lady.",
-      "whitemoth_stamp.gif"
+        "Elegant Moth",
+        101,
+        "Look at this lovely lady.",
+        "whitemoth_stamp.gif"
     ],
     [
-      "",
-      -1,
-      "",
-      ""
+        "Fluttering Shiny Bug",
+        101,
+        "According to all known laws of aviation, there is no way a bug should be able to fly... in space!",
+        "damselfly_stamp.gif"
     ],
     [
-      "",
-      -1,
-      "",
-      ""
+        "Armoured Tonu Beetle",
+        101,
+        "This beetle has a HUGE horn!",
+        "rhino_stamp.gif"
     ],
     [
-      "",
-      -1,
-      "",
-      ""
+        "Jewelled Weevil",
+        101,
+        "The secret ingrediant to Weevil Coffee.",
+        "weevil_stamp.gif"
     ],
     [
-      "Uncommon Blue Collectable Scarab",
-      95,
-      "You won't see this scarab often so make sure you get it when you see it!",
-      "coi_scarab_3.gif"
+        "Uncommon Blue Collectable Scarab",
+        95,
+        "You won't see this scarab often so make sure you get it when you see it!",
+        "coi_scarab_3.gif"
     ],
     [
-      "Spotted Longhorn Beetle",
-      101,
-      "Are they antennas or horns?",
-      "longhorn_stamp.gif"
+        "Spotted Longhorn Beetle",
+        101,
+        "Are they antennas or horns?",
+        "longhorn_stamp.gif"
     ],
     [
-      "",
-      -1,
-      "",
-      ""
+        "Pteriwing Butterfly",
+        101,
+        "It is as big as a Pteri wing!",
+        "birdwing_stamp.gif"
     ],
     [
-      "Greater Green Collectable Scarab",
-      93,
-      "This beautiful green scarab has a fascinating pattern on its back that is quite hypnotising.",
-      "coi_desertscarab_green.gif"
+        "Greater Green Collectable Scarab",
+        93,
+        "This beautiful green scarab has a fascinating pattern on its back that is quite hypnotising.",
+        "coi_desertscarab_green.gif"
     ],
     [
-      "",
-      -1,
-      "",
-      ""
+        "Dazzling Verdant Collectable Scarab",
+        98,
+        "This dazzling scarab is beautiful to look at. You are very lucky if you find one!",
+        "coi_verdant_scarab.gif"
     ],
     [
-      "Kreludor Moth",
-      101,
-      "Some say their bushy antennae are for receiving signals from Dr. Sloth.",
-      "lunamoth_stamp.gif"
+        "Kreludor Moth",
+        101,
+        "Some say their bushy antennae are for receiving signals from Dr. Sloth.",
+        "lunamoth_stamp.gif"
     ],
     [
-      "Stick Bug",
-      101,
-      "Are we sure this is actually a bug and not a stick?",
-      "stickbug_stamp.gif"
+        "Stick Bug",
+        101,
+        "Are we sure this is actually a bug and not a stick?",
+        "stickbug_stamp.gif"
     ],
     [
-      "Spotted Red Collectable Scarab",
-      96,
-      "The spots on this Scarabs back scare away its enemies!",
-      "coi_dotted_scarabs.gif"
+        "Spotted Red Collectable Scarab",
+        96,
+        "The spots on this Scarabs back scare away its enemies!",
+        "coi_dotted_scarabs.gif"
     ],
     [
-      "",
-      -1,
-      "",
-      ""
+        "Pinching Beetle",
+        101,
+        "That's what it does, it pinches.",
+        "stag_stamp.gif"
     ],
     [
-      "Trilo Bite Beetle",
-      101,
-      "This beetle is almost as old as Tyrannia!",
-      "platerodrilus_stamp.gif"
+        "Trilo Bite Beetle",
+        101,
+        "This beetle is almost as old as Tyrannia!",
+        "platerodrilus_stamp.gif"
     ],
     [
-      "Magmara Moth",
-      101,
-      "This is a giant! Among bugs, at least.",
-      "atlasmoth_stamp.gif"
+        "Magmara Moth",
+        101,
+        "This is a giant! Among bugs, at least.",
+        "atlasmoth_stamp.gif"
     ],
     [
-      "",
-      -1,
-      "",
-      ""
+        "Large Black Collectable Scarab",
+        99,
+        "This exceptionally large scarab has a mood as dark as its exoskeleton.",
+        "coi_large_black_scarab.gif"
     ]
   ]
 }
