@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Grundo's Café stamp album helper
 // @namespace    github.com/windupbird144
-// @version      0.7
+// @version      0.11
 // @description  Extend features of the stamp album on Grundo's Café
 // @author       supercow64, eleven, rowanberryyyy, kateslines
 // @match        https://grundos.cafe/stamps/album/?page_id=*
@@ -63,7 +63,7 @@ function removePrefix(url) {
             // This identifies if we have a stamp, wheteher it is collected and a database entry
             const cell = cells[slot]
             const collected = cell.title
-            const databaseEntry = database[page] ? database[page][slot] : undefined
+            const databaseEntry = database[page]?.[slot]?.[0] ? database[page][slot] : undefined
             // Update the dataset for the shop wizard functionality
             if (databaseEntry) {
                 cell.dataset.position = slot
@@ -82,7 +82,7 @@ function removePrefix(url) {
 
 
         // Open the url in a new tab and fill the form fields
-        function openAndFill(url, formFields) {
+        function openAndFill(url, formFields, customCallbacks) {
             const w = window.open(url)
             w.addEventListener("DOMContentLoaded", () => {
                 const document = w.document
@@ -90,6 +90,11 @@ function removePrefix(url) {
                     const formField = document.querySelector(`#page_content [name='${name}']`)
                     if (formField) {
                         formField.value = value
+                    }
+                }
+                if (customCallbacks) {
+                    for (let callback of customCallbacks) {
+                        callback(document)
                     }
                 }
             })
@@ -106,6 +111,12 @@ function removePrefix(url) {
         const searchAuctionHouse = () => window.open("/auctions")
         const searchSDB = (query) => window.open(`/safetydeposit/?page=1&${encodeQuery("query", query)}&category=0`)
         const searchJellyneo = (query) => window.open(`https://items.jellyneo.net/search/?${encodeQuery("name", query)}`)
+        const searchVirtupets = (query) => window.open(`https://virtupets.net/search?${encodeQuery("q", query)}`)
+        const addToWishlist = (query) => openAndFill(
+            '/wishlist/edit/',
+            { item: query },
+            [ document => document.querySelector("main details").open = true ]
+        )
         const searchShop = () => window.open(`/viewshop/?shop_id=58`)
 
         // Show a rich info box at the bottom
@@ -116,21 +127,23 @@ function removePrefix(url) {
         <div class="name">name</div>
         <div class="rarity"></div>
         <div class="cols">
-        <div class="arrow" data-delta="-1"><</div>
+        <div class="stamp_arrow" data-delta="-1"><</div>
         <div class="image"><img src=""/></div>
         <div class="labels">
            <div><label>Position: </label><span class="position"></span></div>
            <div><label>Status: </label><span class="status"></span></div>
            <div class="links">
-             <img data-search="wizard" src="https://neopialive.s3.us-west-1.amazonaws.com/misc/wiz.png" />
-             <img data-search="trading" src="https://neopialive.s3.us-west-1.amazonaws.com/misc/tp.png" />
-             <img data-search="auction-house" src="https://i.ibb.co/vYzmPxV/auction25.gif" />
-             <img data-search="sdb" src="https://neopialive.s3.us-west-1.amazonaws.com/misc/sdb.gif" />
-             <img data-search="jn" src="https://i.ibb.co/cvGsCw4/fishnegg25.gif" />
-             <img data-search="shop" src="/static/images/misc/shopkeeper/58.gif" />
+             <img width="24" data-search="wizard" src="https://neopialive.s3.us-west-1.amazonaws.com/misc/wiz.png" />
+             <img width="24" data-search="trading" src="https://neopialive.s3.us-west-1.amazonaws.com/misc/tp.png" />
+             <img width="24" data-search="auction-house" src="https://i.ibb.co/vYzmPxV/auction25.gif" />
+             <img width="24" data-search="sdb" src="https://neopialive.s3.us-west-1.amazonaws.com/misc/sdb.gif" />
+             <img width="24" data-search="jn" src="https://i.ibb.co/cvGsCw4/fishnegg25.gif" />
+             <img width="24" data-search="virtupets" src="https://virtupets.net/assets/images/vp.png" />
+             <img width="24" data-search="shop" src="https://grundoscafe.b-cdn.net/misc/shopkeeper/58.gif" />
+             <img width="24" data-search="wishlist" alt="Add to wishlist"  src="https://grundoscafe.b-cdn.net/searchicons/wish_add_green.png" />
            </div>
         </div>
-        <div class="arrow" data-delta="1">></div>
+        <div class="stamp_arrow" data-delta="1">></div>
         </div>
       </div>
     </td>
@@ -141,7 +154,7 @@ function removePrefix(url) {
       padding: 1em;
       border: 1px solid #aaa;
     }
-    #stampinfo .arrow {
+    #stampinfo .stamp_arrow {
        font-size: 2em;
        display: flex;
        align-items: center;
@@ -168,7 +181,6 @@ function removePrefix(url) {
        display: grid;
        grid-template-columns: min-content auto 1fr min-content;
     }
-    img[data-search] { height: 25px; }
     #compare-user {
         margin-top: 1em;
     }
@@ -243,8 +255,10 @@ function removePrefix(url) {
                 "trading": searchTradingPost,
                 "auction-house": searchAuctionHouse,
                 "sdb": searchSDB,
+                "virtupets" : searchVirtupets,
                 "jn": searchJellyneo,
-                "shop" : searchShop
+                "shop" : searchShop,
+                "wishlist" : addToWishlist
             }[search]
             if (searchFunction) {
                 return searchFunction(query)
@@ -273,7 +287,7 @@ function removePrefix(url) {
 
         // Show diff form
         const compareUser = localStorage.getItem("compare-user") ?? ""
-        
+
         table.nextElementSibling.insertAdjacentHTML("beforeend", `<form action="#" id="compare-user">
            <label for="compare-user">Compare against another user</label><br>
            <input type="text" name="compare-user" value="${compareUser}" />
@@ -338,6 +352,7 @@ function removePrefix(url) {
             // regex to get all stamp images on this html page
             // match(/src="\/images.+?"/g).map(e => e.match(/\/images.+\.\w+/)[0])
             for (let cell of cells) {
+                if (!cell.dataset.name) continue
                 cell.parentElement.dataset.diff = ""
                 const have = cell.dataset.collected === "true"
                 const otherHas = html.includes(removePrefix(cell.src))
