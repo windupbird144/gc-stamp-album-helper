@@ -3,7 +3,7 @@
 // @namespace    github.com/windupbird144
 // @version      0.7
 // @description  Extend features of the stamp album on Grundo's Café
-// @author       supercow64, eleven, rowanberryyyy
+// @author       supercow64, eleven, rowanberryyyy, kateslines
 // @match        https://grundos.cafe/stamps/album/?page_id=*
 // @icon         https://grundos.cafe/static/images/favicon.66a6c5f11278.ico
 // @grant        none
